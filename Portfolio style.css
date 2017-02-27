@@ -1,0 +1,184 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: #1F2B40;
+	font-family: Arial, sans-serif;
+	line-height: 24px;
+
+
+}
+
+header {
+	background: #2E7866;
+
+
+}
+
+main {
+	padding: 60px 0;
+	background: #DDE0DF;
+	padding-left: 225px;
+
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+	clear: both;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+p { margin-bottom: 20px;
+	
+}
+
+nav {	float: right;
+		width: 45%;
+		text-align: right;
+		margin-top: 15px;
+
+
+}
+
+nav ul li { display: inline;
+
+
+}
+
+nav ul li a{ display: inline-block;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 10px 20px;
+			color: #FFFFFF;
+			letter-spacing: 1px;
+
+}
+
+nav ul li a:hover{
+			border-bottom: 5px solid #4E0E2E;
+}
+
+nav ul li a.active { 
+			border-bottom: 5px solid #1D215A;
+}
+
+nav ul li a.active:hover{ 
+			border-bottom: 5px solid #4E0E2E;
+}
+
+
+.brand { float: left;
+		width: 20%;
+		
+
+}
+
+.brand a{ font-size: 30px;
+		display: block;
+		color: #FFFFFF;
+		text-decoration: none;
+		padding: 25px;
+		padding-left: 0;
+		letter-spacing: 3px;
+
+}
+
+.card { background: #fff;
+		box-shadow: 5px 5px 20px #1F2B40;
+		padding: 20px;
+ }
+
+.container { width: 960px; 
+			margin: 0 auto;
+			clear: none;
+			float: 0;
+		}
+
+.container:after {
+    content:" ";
+    display:table;
+    clear:both;
+
+
+}
+
+.content { width: 70%;
+		float: left;
+		height: 1400px;
+}
+
+.content h1 { font-size: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.content2 {
+	float: left;
+}
+
+.content h2 { font-size: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.sidebar { width: 25%;
+			float: right;
+			clear: none;
+}
+
+.sidebar h2 { text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: bold;
+			margin-bottom: 25px;
+
+}
+
+.sidebar ul li a { display: block;
+					width: 50px;
+					height: 50px;
+					text-indent: -666666em;
+
+}
+
+.sidebar ul li { display: inline-block;
+
+
+}
+
+a.Twitter { background-color: #1da1f2;
+}
+
+a.Twitter:hover{ background-color: #657786;
+
+}
+
+
+a.Linkedin { background-color: #0077b5;
+}
+
+a.Linkedin:hover{background-color: #313335;
+}
+
+a.StackOverflow { background-color: #f48024;
+}
+
+a.StackOverflow:hover{ background-color: #bcbbbb;
+
+}
+
+		
